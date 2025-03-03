@@ -15,13 +15,14 @@ export default function Login() {
 
   return (
     <div>
-        <section className="vh-100">
+      <p>Fill the form to Login</p>
+          <section className="vh-100">
   <div className="container-fluid">
     <div className="row">
-      <div className="col-sm-6 text-black">
+      <div className="col-sm-6 text-white">
 
         <div className="px-5 ms-xl-4">
-          <i className="fas fa-crow fa-2x me-3 pt-5 mt-xl-4"bg-image-vertical="color: #709085;"></i>
+          <i className="fas fa-crow fa-2x me-3 pt-5 mt-xl-4"bg-image-vertical="color:rgb(7, 30, 30);"></i>
           <span className="h1 fw-bold mb-0">Logo</span>
         </div>
 
@@ -46,7 +47,7 @@ export default function Login() {
             </div>
 
             <p className="small mb-5 pb-lg-2"><a className="text-muted" href="#!">Forgot password?</a></p>
-            <p>Don't have an account? <a href="#!" className="link-info">Register here</a></p>
+            <p>Don't have an account? <a href="/reg" className="link-info">Register here</a></p>
 
           </form>
 
@@ -54,7 +55,7 @@ export default function Login() {
 
       </div>
       <div className="col-sm-6 px-0 d-none d-sm-block">
-      <img src="https://c.ndtvimg.com/2021-11/5rj8tcu_virat-kohli-anushka-sharma-_625x300_29_November_21.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738"
+      <img src="https://img.freepik.com/premium-vector/senior-high-school-students-illustration_705652-661.jpg"
           alt="Login image" className="w-100 vh-100" bg-image-vertical="object-fit: cover; object-position: left;"/>
 
        
